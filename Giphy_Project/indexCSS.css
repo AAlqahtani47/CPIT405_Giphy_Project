@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(190, 190, 190);
+}
+
+h1 {
+    background-color: rgba(189, 59, 59, 0.918);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+  }
+  
+  #searchbtn {
+    background-color: rgba(189, 59, 59, 0.918);
+    color: #000;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .add-btn:hover {
+    background-color: rgba(189, 59, 59, 0.918);
+  }
+  
+ .btn:hover {
+    background-color: #eee;
+  }
+
+
+@media screen and (min-width: 320px){
+    html{
+        font-size: 150%;
+    }
+}
+
+img{
+    margin: 10px 10px;
+}
